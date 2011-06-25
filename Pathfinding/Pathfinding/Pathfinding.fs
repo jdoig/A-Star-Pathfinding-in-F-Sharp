@@ -8,7 +8,7 @@ type PathingNode =
 //returns a pathnode based on a given map point
 let pointToPathNode parent goal node = {mapPoint=node; h=node.Distance goal; g=(parent.g+1.0); parent=Some(parent)} 
 
-//A 2D tile specific version of the A* algorythm
+//A 2D tile specific version of the A* algorithm
 let pathFind (map:Map) (goal:MapPoint) = aStar (fun n-> n.mapPoint) (fun n-> n.g) (fun n-> n.h) (fun n-> (map.GetNeighboursOf n.mapPoint.point) |> List.filter(fun n-> n.value =0) |> List.map (pointToPathNode n goal.point)) goal
 
 let rec readPath (path:PathingNode) (list:Utils.Point list) =

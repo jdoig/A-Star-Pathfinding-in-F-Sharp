@@ -1,3 +1,7 @@
+This project contains the A* path-finding algorithm implemented in F# and showcases it in a simple graphical application. In which a character finds his way around a simple 2D, Tile based, maze.
+
+The main deliverable here is the A* algorithm as implemented in F#; the rest of the project is only provided for demonstration purposes.
+
 *Requires*
 http://cs-sdl.sourceforge.net/
 
