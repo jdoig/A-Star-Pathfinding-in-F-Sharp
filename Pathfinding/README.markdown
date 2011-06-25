@@ -9,7 +9,7 @@ Contains a function that curries the A* algorithm with 2D tilemap specific funct
 
 The remaining files are just used to showcase the path-finding in a simple graphical application that uses SDL.NET.
 
-When the demo is running:
+*When the demo is running:*
 Pressing M causes the cloaked figure to reset to the bottom right corner and then find his way to the chest,
 Pressing N causes him to find his way to the bottom left corner... you can interrupt his journey to the chest at any point with this.
 
