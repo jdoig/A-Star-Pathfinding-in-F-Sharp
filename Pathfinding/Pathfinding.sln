@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Pathfinding", "Pathfinding\Pathfinding.fsproj", "{0CE03BA3-CB95-48C5-AA54-0941362A5DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE03BA3-CB95-48C5-AA54-0941362A5DB1}.Debug|x86.ActiveCfg = Debug|x86
+		{0CE03BA3-CB95-48C5-AA54-0941362A5DB1}.Debug|x86.Build.0 = Debug|x86
+		{0CE03BA3-CB95-48C5-AA54-0941362A5DB1}.Release|x86.ActiveCfg = Release|x86
+		{0CE03BA3-CB95-48C5-AA54-0941362A5DB1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
