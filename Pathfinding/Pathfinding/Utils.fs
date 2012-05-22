@@ -26,7 +26,7 @@ let loadMap path =
                         |> Array.filter(fun s -> s<> String.Empty)
                         |> Array.map(fun s-> Int32.Parse(s.Replace(";",String.Empty)))
 
-//The A* Algorythm
+//The A* Algorithm
 let rec aStar value g h neighbours goal start (openNodes: 'a list) (closedNodes: 'a list) =
     let f x:float = (g x)+(h x) //f will be the value we sort open nodes buy.
     let isShorter nodeA nodeB = nodeA = nodeB && f nodeA < f nodeB 
